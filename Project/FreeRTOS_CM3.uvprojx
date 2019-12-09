@@ -338,7 +338,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F10X_MD,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\Core;..\FreeRTOS;..\FreeRTOS\Source\include;..\FreeRTOS\Source\portable\RVDS\ARM_CM3;..\FWLib;..\FWLib\inc;..\user</IncludePath>
+              <IncludePath>..\Core;..\FreeRTOS;..\FreeRTOS\Source\include;..\FreeRTOS\Source\portable\RVDS\ARM_CM3;..\FWLib;..\FWLib\inc;..\components\CRC16;..\user</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -471,6 +471,26 @@
               <FileName>list.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\FreeRTOS\Source\list.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Components</GroupName>
+          <Files>
+            <File>
+              <FileName>user_crc16.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\components\CRC16\user_crc16.c</FilePath>
+            </File>
+            <File>
+              <FileName>user_aes128.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\components\AES128\user_aes128.c</FilePath>
+            </File>
+            <File>
+              <FileName>user_sha256.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\components\SHA256\user_sha256.c</FilePath>
             </File>
           </Files>
         </Group>
