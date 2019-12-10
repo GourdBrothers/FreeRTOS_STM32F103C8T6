@@ -338,7 +338,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F10X_MD,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\Core;..\FreeRTOS;..\FreeRTOS\Source\include;..\FreeRTOS\Source\portable\RVDS\ARM_CM3;..\FWLib;..\FWLib\inc;..\components\CRC16;..\user</IncludePath>
+              <IncludePath>..\Core;..\FreeRTOS;..\FreeRTOS\Source\include;..\FreeRTOS\Source\portable\RVDS\ARM_CM3;..\FWLib;..\FWLib\inc;..\components\CRC16;..\user;..\components\AES128</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -453,11 +453,6 @@
               <FilePath>..\FreeRTOS\Source\portable\RVDS\ARM_CM3\port.c</FilePath>
             </File>
             <File>
-              <FileName>heap_2.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\FreeRTOS\Source\portable\MemMang\heap_2.c</FilePath>
-            </File>
-            <File>
               <FileName>queue.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\FreeRTOS\Source\queue.c</FilePath>
@@ -471,6 +466,11 @@
               <FileName>list.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\FreeRTOS\Source\list.c</FilePath>
+            </File>
+            <File>
+              <FileName>heap_4.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\FreeRTOS\Source\portable\MemMang\heap_4.c</FilePath>
             </File>
           </Files>
         </Group>

@@ -1,3 +1,11 @@
+/*
+**
+**	user_aes128.h
+**
+**
+*/
+
+
 #ifndef __USER_AES128_H_
 #define __USER_AES128_H_
 
@@ -14,11 +22,11 @@
 #endif
 
 #ifndef ECB_T
-  #define ECB_T 0
+  #define ECB_T 1
 #endif
 
 #ifndef CTR_T
-  #define CTR_T 1
+  #define CTR_T 0
 #endif
 
 
